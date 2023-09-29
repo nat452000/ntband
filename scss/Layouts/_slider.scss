@@ -1,0 +1,17 @@
+.slider {
+  padding-top: 50%;
+  background: url(../img/slider1-la.jpg) top center/cover no-repeat;
+  .text-content {
+    color: $color-1;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 46.5px;
+  }
+  .text-heading {
+    font-size: $fs-2;
+  }
+  .text-description {
+    font-weight: 700;
+    margin-top: 25px;
+  }
+}

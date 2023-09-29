@@ -1,0 +1,20 @@
+footer {
+  text-align: center;
+  margin: 60px;
+  .social-list {
+    a {
+      font-size: 24px;
+      color: $color-2;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  .footer-text {
+    margin-top: 20px;
+    color: $color-3;
+    a {
+      color: $color-3;
+    }
+  }
+}

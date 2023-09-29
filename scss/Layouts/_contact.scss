@@ -1,0 +1,58 @@
+.contact-section {
+  width: 800px;
+  margin: 90px auto 0;
+  .contact-section-heading {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+  }
+  .contact-section-sub-heading {
+    font-style: italic;
+    text-align: center;
+    opacity: 0.6;
+    margin: 15px 0px 48px;
+  }
+  .row {
+    p {
+      font-size: 18px;
+    }
+  }
+  i {
+    width: 30px;
+  }
+  .col {
+    float: left;
+  }
+  .col-full {
+    width: 100%;
+  }
+  .col-half {
+    width: 50%;
+  }
+  .form-control {
+    padding: 10px;
+    border: 1px solid $color-3;
+    width: 100%;
+    margin: 3px 0px;
+  }
+  .form-submit {
+    background-color: $color_2;
+    color: $color-1;
+    border: 1px solid $color-3;
+    padding: 10px 16px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+    &:hover {
+      background-color: $color-3;
+    }
+  }
+}
+.map-section {
+  img {
+    margin-top: 100px;
+    width: 100%;
+  }
+}

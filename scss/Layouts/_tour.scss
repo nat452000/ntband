@@ -1,0 +1,86 @@
+.tour-section {
+  background-color: black;
+  height: 850px;
+  .tour-section-heading {
+    letter-spacing: 4px;
+    color: $color-1;
+    margin: 10px 0px;
+    padding-top: 74px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .tour-section-sub-heading {
+    color: $color-1;
+    opacity: 0.6;
+    margin: 15px 0px;
+    text-align: center;
+    font-style: italic;
+  }
+  ul {
+    list-style-type: none;
+    width: 800px;
+    background-color: $color_1;
+    margin: auto;
+    li {
+      padding: 8px 16px;
+      color: $color-3;
+    }
+  }
+  li {
+    span {
+      margin-left: 16px;
+      text-align: center;
+      display: inline-block;
+      padding: 0px 8px;
+      color: $color-1;
+      background-color: $color-4;
+    }
+    &:nth-child(3) {
+      span {
+        float: right;
+        background-color: black;
+        color: $color-1;
+        border-radius: 50%;
+        padding: 0px 8px;
+        margin-right: 16px;
+      }
+    }
+  }
+  .place-list {
+    margin: 32px auto 0;
+    width: 800px;
+  }
+  .place-item {
+    float: left;
+    width: 33.33%;
+  }
+  img {
+    width: 100%;
+    display: block;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  .place-body {
+    background-color: $color_1;
+    padding: 0 15px 20px;
+  }
+  .place-heading {
+    padding-top: 15px;
+    font-weight: 700;
+  }
+  .place-time {
+    margin: 15px 0;
+    opacity: 0.6;
+  }
+  .place-desc {
+    margin: 15px 0;
+  }
+  .place-buy-btn {
+    background: $color_2;
+    color: $color-1;
+    text-decoration: none;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+  }
+}
